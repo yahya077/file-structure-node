@@ -1,0 +1,24 @@
+{
+  "name": "file-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "stop": "taskkill -f -im node.exe"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.13",
+    "nodemon": "^2.0.7",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0"
+  }
+}
